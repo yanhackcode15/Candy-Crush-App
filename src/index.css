@@ -1,0 +1,54 @@
+/* -webkit-appearance: none; */
+
+* {
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #eff0f5;
+    font-family: "inter", sans-serif;
+
+}
+.white-text {
+    color: #ffffff;
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.board div {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+}
+.yellow {
+    background-image: url('../public/images/yellow-candy.png');
+}
+.green {
+    background-image: url('../public/images/green-candy.png');
+}
+.blue {
+    background-image: url('../public/images/blue-candy.png');
+}
+.red {
+    background-image: url('../public/images/red-candy.png');
+}
+.purple {
+    background-image: url('../public/images/purple-candy.png');
+}
+.orange {
+    background-image: url('../public/images/orange-candy.png');
+}
